@@ -1,15 +1,7 @@
-import type { Metadata } from "next";
-import "./globals.css";
+import type { Metadata } from 'next';
+import './globals.css';
 
-export const metadata: Metadata = {
-  title: "DND Vibe Coding",
-  description: "Next.js 샘플 프로젝트",
-};
-
-export default function RootLayout({ children }: LayoutProps<"/">) {
-  return (
-    <html lang="ko" className="h-full antialiased">
-      <body className="min-h-full flex flex-col">{children}</body>
-    </html>
-  );
+export const metadata: Metadata = { title: 'LS MnM · AI 분석 플랫폼', description: '토큰 기반 분석 플랫폼 퍼블리싱 샘플' };
+export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
+  return <html lang="ko"><body>{children}</body></html>;
 }

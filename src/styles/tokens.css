@@ -1,0 +1,66 @@
+/* Generated from token.json. Do not edit. */
+:root {
+  --primitive-white: #ffffff;
+  --primitive-navy: #102340;
+  --primitive-blue: #124c8c;
+  --primitive-blueDark: #0c386a;
+  --primitive-blueLight: #e8f2ff;
+  --primitive-slate: #73829b;
+  --primitive-line: #dce5ef;
+  --primitive-canvas: #f6f9fc;
+  --primitive-green: #12875b;
+  --primitive-orange: #c85c13;
+  --primitive-orangeLight: #fff3e8;
+  --primitive-greenLight: #e7f6ef;
+  --semantic-color-primary: var(--primitive-blue);
+  --semantic-color-primary-hover: var(--primitive-blueDark);
+  --semantic-color-foreground: var(--primitive-navy);
+  --semantic-color-muted: var(--primitive-slate);
+  --semantic-color-border: var(--primitive-line);
+  --semantic-color-background: var(--primitive-canvas);
+  --semantic-color-surface: var(--primitive-white);
+  --semantic-color-accent: var(--primitive-blueLight);
+  --semantic-color-success: var(--primitive-green);
+  --semantic-color-success-soft: var(--primitive-greenLight);
+  --semantic-color-warning: var(--primitive-orange);
+  --semantic-color-warning-soft: var(--primitive-orangeLight);
+  --semantic-radius-control: 6px;
+  --semantic-radius-panel: 8px;
+  --semantic-spacing-unit: 4px;
+  --semantic-spacing-page: 32px;
+  --semantic-font-sans: Arial, 'Malgun Gothic', sans-serif;
+  --semantic-text-sm: 13px;
+  --semantic-text-base: 14px;
+  --semantic-text-lg: 18px;
+  --semantic-text-2xl: 28px;
+  --component-button-height: 40px;
+  --component-button-background: var(--semantic-color-primary);
+  --component-button-radius: var(--semantic-radius-control);
+  --component-input-height: 40px;
+  --component-input-border: var(--semantic-color-border);
+  --component-card-radius: var(--semantic-radius-panel);
+}
+
+@theme inline {
+  --color-primary: var(--semantic-color-primary);
+  --color-primary-hover: var(--semantic-color-primary-hover);
+  --color-foreground: var(--semantic-color-foreground);
+  --color-muted: var(--semantic-color-muted);
+  --color-border: var(--semantic-color-border);
+  --color-background: var(--semantic-color-background);
+  --color-surface: var(--semantic-color-surface);
+  --color-accent: var(--semantic-color-accent);
+  --color-success: var(--semantic-color-success);
+  --color-success-soft: var(--semantic-color-success-soft);
+  --color-warning: var(--semantic-color-warning);
+  --color-warning-soft: var(--semantic-color-warning-soft);
+  --radius-control: var(--semantic-radius-control);
+  --radius-panel: var(--semantic-radius-panel);
+  --spacing-unit: var(--semantic-spacing-unit);
+  --spacing-page: var(--semantic-spacing-page);
+  --font-sans: var(--semantic-font-sans);
+  --text-sm: var(--semantic-text-sm);
+  --text-base: var(--semantic-text-base);
+  --text-lg: var(--semantic-text-lg);
+  --text-2xl: var(--semantic-text-2xl);
+}
